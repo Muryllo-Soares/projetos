@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'pokemon';
+    src: url('fontes/pokemon/Pokemon\ Solid.ttf') format('truetype');
+}
+@font-face {
+    font-family:'flexo';
+    src: url(fontes/flexo/Flexo.otf) format('opentype');
+}
+
+body{
+    background-color: lightgray;
+}
+header{
+    font-family:'pokemon', serif;
+    text-align: center;
+}
+section h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+div h2{
+    font-family: 'flexo';
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+}
+picture img{
+    display: block;
+    margin: auto;
+}
+picture img.tipo-poke-fire{
+    width: 70px;
+    padding: 40px;
+    margin-top: -39px;
+}
+picture img.tipo-poke-water{
+    width: 70px;
+    padding: 40px;
+    margin-top: -11px;
+}
+picture img.tipo-poke-grass{
+    width: 70px;
+    padding: 40px;
+    margin-top: -20px;
+}
+div{
+    width: 327px;
+    height: 562px;
+    border-radius: 5px;
+    position: relative;
+    float:left;
+    margin: 15px;
+}
+div.q1{
+    background-color:#fd7e24d3;
+}
+div.q2{
+    background-color: #4592C4;
+}
+div.q3{
+    background-color: #9BCC50;
+}
+div p{
+    text-align: center;
+    margin-top: -29px;
+}
+div a{
+    text-decoration: none;
+    
+}
