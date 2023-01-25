@@ -8,17 +8,40 @@
     font-family:'flexo';
     src: url(fontes/flexo/Flexo.otf) format('opentype');
 }
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
 
 body{
-    background-color: lightgray;
+    background-color: rgba(211, 211, 211, 0.363);
+    height: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 header{
     font-family:'pokemon', serif;
     text-align: center;
+    margin-top: -70px;
 }
+header h1{
+    font-size: 3em;
+    color:#FCC909;
+    text-shadow: 3px 6px 0px #1744b5af;
+    margin: 25px;
+    padding: 11px;
+    
+}
+main{
+    min-width: 300px;
+    max-width: 1075px;
+    margin: auto;
+    height: 700px;
+}
+
 section h1{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
     text-align: center;
+    font-size: 35px;
 }
 
 div h2{
