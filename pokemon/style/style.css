@@ -12,12 +12,11 @@
     margin: 0px;
     padding: 0px;
 }
-
 body{
     background-color: rgb(102, 100, 100);
 }
 header{
-    font-family:'pokemon', serif;
+    font-family:'pokemon', sans-serif;
     text-align: center;
     line-height: 100px;
     font-size: 2em;
@@ -46,7 +45,7 @@ section h1{
     padding: 10px;
 }
 div h2{
-    font-family: 'flexo';
+    font-family: 'flexo', 'Times New Roman', Times, serif;
     text-align: center;
     padding: 20px;
     font-size: 2em;
