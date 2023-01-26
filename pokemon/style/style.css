@@ -38,7 +38,7 @@ main{
 }
 
 section h1{
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     text-align: center;
     font-size: 30px;
@@ -94,15 +94,16 @@ div.q3{
 }
 div p{
     text-align: center;
-    margin-top: -15px;
+    margin-top: -16px;
     font-weight: bolder;
     
 }
 div a{
+    font-family: 'flexo';
+    font-weight: lighter;
     text-decoration: none;
     color: black;
-    font-size: 1.1em;
-    
+    font-size: 1.1em;  
 }
 div a:hover{
     text-decoration: underline;
