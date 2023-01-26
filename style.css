@@ -10,31 +10,30 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
 
-
-body{
-    background-color: rgba(211, 211, 211, 0.363);
-    height: 0px;
+*{
     margin: 0px;
     padding: 0px;
+}
+
+body{
+    background-color: rgb(211, 211, 211);
 }
 header{
     font-family:'pokemon', serif;
     text-align: center;
     margin-top: -70px;
-}
-header h1{
-    font-size: 3em;
+    font-size: 2em;
+    min-height: 150px;
     color:#FCC909;
-    text-shadow: 3px 6px 0px #1744b5af;
-    margin: 25px;
-    padding: 11px;
-    
+    text-shadow: 3px 6px 0px #0643ddd0;
+    padding: 20px;
 }
 main{
     min-width: 300px;
     max-width: 1075px;
+    display:flex;
     margin: auto;
-    height: 700px;
+    background-color: rgba(0, 0, 0, 0.452);
 }
 
 section h1{
@@ -43,33 +42,35 @@ section h1{
     text-align: center;
     font-size: 35px;
 }
-
 div h2{
     font-family: 'flexo';
     text-align: center;
     padding: 20px;
     font-size: 2em;
 }
-picture img{
+picture img.tipo-poke-fire{
     display: block;
     margin: auto;
-}
-picture img.tipo-poke-fire{
     width: 70px;
     padding: 40px;
     margin-top: -39px;
+    
 }
 picture img.tipo-poke-water{
+    display: block;
+    margin: auto;
     width: 70px;
     padding: 40px;
     margin-top: -11px;
 }
 picture img.tipo-poke-grass{
+    display: block;
+    margin: auto;
     width: 70px;
     padding: 40px;
     margin-top: -20px;
 }
-div{
+ section div{
     width: 327px;
     height: 562px;
     border-radius: 5px;
