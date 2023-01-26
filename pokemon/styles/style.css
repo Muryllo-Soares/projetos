@@ -2,14 +2,12 @@
 
 @font-face {
     font-family:'pokemon';
-    src: url('fontes/pokemon/Pokemon/Solid.ttf') format('truetype');
+    src: url('/pokemon/fontes/pokemon/Pokemon\ Solid.ttf') format('truetype');
 }
 @font-face {
     font-family:'flexo';
-    src: url(fontes/flexo/Flexo.otf) format('opentype');
+    src: url(/pokemon/fontes/flexo/Flexo.otf) format('opentype');
 }
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
-
 *{
     margin: 0px;
     padding: 0px;
