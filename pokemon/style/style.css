@@ -2,11 +2,11 @@
 
 @font-face {
     font-family:'pokemon';
-    src: url('projetos/pokemon/fontes/Pokemon Solid.ttf') format('truetype');
+    src: url("../fontes/Pokemon Solid.ttf") format('truetype');
 }
 @font-face {
     font-family:'flexo';
-    src: url('/pokemon/fontes/Flexo-CapsDEMO.otf') format('opentype');
+    src: url('../fontes/Flexo-CapsDEMO.otf') format('opentype');
 }
 *{
     margin: 0px;
