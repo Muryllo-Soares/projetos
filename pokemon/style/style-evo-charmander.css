@@ -2,9 +2,39 @@
 
 @font-face {
     font-family:'pokemon';
-    src: url('/pokemon/fontes/Pokemon\ Solid.ttf') format(truetype);
+    src: url('../fontes/Pokemon\ Solid.ttf') format(truetype);
 }
 
-header{
+body{
+    height: 100vh;
+    background-color: rgb(102, 100, 100);
+
+}
+
+main{
+    min-width: 300px;
+    max-width: 1075px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-color: rgba(241, 235, 235, 0.678);
+    border-radius: 15px;
+    box-shadow: 1px 1px 12px 6px rgba(0, 0, 0, 0.37);;
+}
+
+header h1{
     font-family: 'pokemon';
+    text-align: center;
+
+}
+.bloco{
+    width: 305px;
+    height: 562px;
+    border-radius: 25px;
+    position:relative;
+    float:left;
+    margin: 10px;
+    margin-left: 40px;
+    background-color: #fd7e24d3;
 }

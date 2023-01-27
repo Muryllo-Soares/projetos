@@ -25,6 +25,14 @@ header{
     text-shadow: 3px 6px 0px #011d64d0;
     padding: 20px;
 }
+
+header a.voltar{
+    font-family: 'flexo', Arial, Helvetica, sans-serif;
+    box-shadow: none;
+    text-shadow: none;
+    color: black;
+
+}
 main{
     min-width: 300px;
     max-width: 1075px;
@@ -60,6 +68,24 @@ div h2{
     padding: 20px;
     font-size: 2em;
 }
+div h2.text{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5em;
+}
+div h3{
+    font-family: 'flexo', 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+}
+
+picture{
+    margin:0px;
+    padding: 0px;
+    height: 0px;
+}
 picture img.tipo-poke-fire{
     display: block;
     margin: auto;
@@ -68,6 +94,36 @@ picture img.tipo-poke-fire{
     margin-top: -39px;
     
 }
+picture img.tipo-poke-fogo{
+    display: block;
+    margin: auto;
+    width: 70px;
+    margin-top: -23px;
+}
+
+picture img.tipo-zard{
+    display: inline-block;
+    width: 70px;
+    margin-left: 39px;
+    margin-bottom: -5px;
+    
+}
+
+picture img.tipo-voador{
+    display:inline-block;
+    padding: 15px;
+    margin-left: 165px;
+    margin-top: -104px;
+    width: 70px;
+    
+    
+}
+
+picture img.charmeleon{
+    margin: -13px;
+    margin-left: 15px;
+}
+
 picture img.tipo-poke-water{
     display: block;
     margin: auto;
