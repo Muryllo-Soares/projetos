@@ -13,7 +13,13 @@
     padding: 0px;
 }
 body{
+    height: 100vh;
     background-color: rgb(102, 100, 100);
+    background-image: url('/pokemon/imagens/pokebola.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 header{
     font-family:'pokemon', sans-serif;
@@ -132,11 +138,20 @@ picture img.tipo-poke-water{
     padding: 40px;
     margin-top: -11px;
 }
-picture img.tipo-poke-grass{
+
+picture img.tipo-poke-agua{
     display: block;
     margin: auto;
     width: 70px;
-    padding: 40px;
+    padding: 1px;
+    margin-top: 6px;
+}
+
+picture img.tipo-poke-grass{
+    display: inline;
+    margin: auto;
+    width: 70px;
+    padding: 36px;
     margin-top: -20px;
 }
 
@@ -165,19 +180,19 @@ div a{
 div a:hover{
     text-decoration: underline;
 }
-footer{
-    font-family: 'Times New Roman', Times, serif;
+footer p{
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    color: lightgray;
+    font-weight: bold;
+    color: #c29906;
     font-size: 1em;
-    margin-top: 10px;
+    margin-top:11vh;
 }
 footer a{
     text-decoration: none;
-    color:lightgray;
-    font-style: italic;
+    color:black;
 }
 footer a:hover{
     text-decoration: underline;
-    color: black;
+    color: red;
 }
