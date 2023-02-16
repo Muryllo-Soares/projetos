@@ -20,6 +20,7 @@ main{
     position:relative;
     width: 100vw;
     height: 100vh;
+    
 }
 
 section{
@@ -34,6 +35,7 @@ section{
     overflow:hidden;
     width: 90%;
     height:480px;
+    
 }
 
 div#login label{
