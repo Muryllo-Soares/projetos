@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+
+/* Configuração para tablet */
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+    body{
+        background-color: gray;
+    }
+
+    section{
+        width: 50vw;
+    }
+
+}
+
+/* Configuração para telas grandes */
+
+@media screen and (min-width: 992px) {
+    
+    body{
+        background-color: rgb(75, 74, 74);
+    }
+    
+    section {
+        width: 40vw;
+    }
+
+}
