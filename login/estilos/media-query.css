@@ -10,7 +10,37 @@
     }
 
     section{
-        width: 50vw;
+        width: 80vw;
+        height: 400px;
+    }
+
+    div h1{
+    text-align: center;
+    color:#056A75;
+    padding: 0px;
+    margin: 0px;
+    font-size: 3em;
+    font-weight: bold;
+    }
+
+    form >p#cadastro{
+        text-align: right;
+        padding-top: 20px;
+        height: 50px;
+        font-size: 1.2em;
+        margin-left: -50px;
+        
+    }
+
+    form > input[type=submit] {
+        font-size: 1.5em;
+        width: 50%;
+        margin: auto;
+    }
+
+    div#login > input{
+        width: 80%;
+        
     }
 
 }
