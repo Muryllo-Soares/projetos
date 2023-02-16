@@ -64,7 +64,7 @@
         background-color: rgb(75, 74, 74);
     }
     section{
-        width: 60vw;
+        width: 50vw;
         height: 400px;
     }
 
@@ -101,6 +101,7 @@
         width: 50%;
         margin: auto;
         margin-top: 10px;
+        
     }
 
     div#login > input{
