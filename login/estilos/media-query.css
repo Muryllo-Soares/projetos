@@ -25,10 +25,20 @@
 
     form >p#cadastro{
         text-align: right;
-        padding-top: 20px;
+        padding-top: 15px;
         height: 50px;
         font-size: 1.2em;
         margin-left: -50px;
+        
+    }
+
+    form >p#icadastro{
+        text-align: right;
+        padding-top: 10px;
+        height: 13px;
+        font-size: 1.2em;
+        margin-left: -50px;
+        margin-top: 5px;
         
     }
 
@@ -36,6 +46,7 @@
         font-size: 1.5em;
         width: 50%;
         margin: auto;
+        margin-top: 10px;
     }
 
     div#login > input{
@@ -52,9 +63,50 @@
     body{
         background-color: rgb(75, 74, 74);
     }
-    
-    section {
-        width: 40vw;
+    section{
+        width: 60vw;
+        height: 400px;
     }
 
+    div h1{
+    text-align: center;
+    color:#056A75;
+    padding: 0px;
+    margin: 0px;
+    font-size: 3em;
+    font-weight: bold;
+    }
+
+    form >p#cadastro{
+        text-align: right;
+        padding-top: 15px;
+        height: 50px;
+        font-size: 1.2em;
+        margin-left: -50px;
+        
+    }
+
+    form >p#icadastro{
+        text-align: right;
+        padding-top: 10px;
+        height: 13px;
+        font-size: 1.2em;
+        margin-left: -50px;
+        margin-top: 5px;
+        
+    }
+
+    form > input[type=submit] {
+        font-size: 1.5em;
+        width: 50%;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    div#login > input{
+        width: 80%;
+        
+    }
+    
+    
 }
