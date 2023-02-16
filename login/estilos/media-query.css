@@ -14,6 +14,7 @@
         height: 400px;
     }
 
+
     div h1{
     text-align: center;
     color:#056A75;
@@ -51,7 +52,23 @@
 
     div#login > input{
         width: 80%;
+        margin-left: 60px;
         
+    }
+
+    div#login label{
+        display: block;
+        margin-bottom: 5px;
+        margin-top: 7px;
+        margin-left: 60px;
+        color:#065c66;
+        font-size: 1.2em;
+    }
+
+    form >p#check{
+        padding: 10px;
+        margin-left: 50px;
+        color: #055861;
     }
 
 }
@@ -64,9 +81,10 @@
         background-color: rgb(75, 74, 74);
     }
     section{
-        width: 50vw;
+        width: 60vw;
         height: 400px;
     }
+
 
     div h1{
     text-align: center;
@@ -101,13 +119,26 @@
         width: 50%;
         margin: auto;
         margin-top: 10px;
-        
     }
 
     div#login > input{
         width: 80%;
+        margin-left: 60px;
         
     }
-    
-    
+
+    div#login label{
+        display: block;
+        margin-bottom: 5px;
+        margin-top: 7px;
+        margin-left: 60px;
+        color:#065c66;
+        font-size: 1.2em;
+    }
+
+    form >p#check{
+        padding: 10px;
+        margin-left: 50px;
+        color: #055861;
+    }
 }
