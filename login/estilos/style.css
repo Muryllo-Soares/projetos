@@ -35,7 +35,7 @@ section{
     overflow:hidden;
     min-width: 320px;
     max-width: 480px;
-    height: 480px;
+    min-height: 480px;
     
     
 }
@@ -116,7 +116,37 @@ form >p#cadastro{
     margin-top: 40px;
 }
 
+form>p#icadastro{
+    position: absolute;
+    background: #e1eaeb;
+    color: #7f7c7c;
+    height: 20px;
+    width: 100%;
+    padding: 17px 30px 20px 30px;
+    font-size: 16px;
+    text-align:center;
+    margin-left: -10px;
+    border-top: 1px solid #dbe5e8;
+    -webkit-border-radius: 0 0  5px 5px;
+    border-radius: 0 0  5px 5px;
+}
+
 form > p#cadastro > a{
+    text-decoration: none;
+    font-weight: bold;
+    background: #f7f8f1;
+    padding: 6px;
+    color: rgb(29, 162, 193);
+    border: 1px solid #cbd518;
+
+    -webkit-border-radius: 4px;
+    border-radius: 4px;  
+
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s  linear;
+}
+
+form > p#icadastro > a{
     text-decoration: none;
     font-weight: bold;
     background: #f7f8f1;
@@ -135,4 +165,10 @@ form> p#cadastro >a:hover{
     color: #39bfd7;
     background: #f7f7f7;
     border: 1px solid #4ab3c6;
+}
+
+form > p#icadastro >a:hover{
+    color: #39bfd7;
+    background: #f7f7f7;
+    border: 1px solid #4ab3c6; 
 }
