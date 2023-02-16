@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <main>
+        <section>
+            <div id="formulario">
+                <h1>Login</h1>
+                <form action="login.php" method="post" autocomplete="on">
+                    <div id="login">
+                        <label for="iemail">Seu e-mail</label>
+                        <input type="email" name="email" id="iemail" autocomplete="e
+                        " placeholder="  exemple@exemple.com" required maxlength="50">
+                    </div>
+                    <div id="login">
+                        <label for="isenha">Sua Senha</label>
+                        <input type="password" name="senha" id="isenha" autocomplete="current-password" required min="8" max="15" placeholder="   ********">
+                    </div>
+                    <p id="check">
+                        <input type="checkbox" name="checar" id="ichecar">
+                        <label for="ichecar">Manter-me Logado</label>
+                    </p>
+
+                    <input type="submit" value="Logar">
+
+                    <p id="cadastro">
+                        Ainda não tem conta?
+                        <a href="#">Cadastre-se</a>
+                    </p>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
