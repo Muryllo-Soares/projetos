@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    background-color: rgba(0, 24, 243, 0.842);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: rgb(0, 0, 0);
+}
+
+.hide{
+    display: none !important;
+}
+
+.container{
+    min-height: 400px;
+    min-width: 400px;
+    background-color: rgb(241, 241, 241);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* IMC Form */
+
+#calc-container h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+.form-control label{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-control input{
+    padding: 15px 15px;
+    background-color: lightgray;
+    border: 1px solid black;
+}
+
+.action-control {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 10px;
+}
+button{
+    text-transform: uppercase;
+    padding: 20px;
+    background-color: rgb(25, 25, 223);
+    border: 1px solid black;
+    color: white;
+    cursor: pointer;
+    opacity: 0.9;
+    flex: 1;
+    border-radius: 5px;
+}
+
+button:hover{
+    opacity: 1;
+}
+
+#clear-btn{
+    background-color: black;
+    border: 1px solid white;
+}
+
+/* TABLE */
+
+#result-container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#imc-number{
+    font-size: 2.4em;
+    margin-bottom: 0.6em;
+}
+
+#imc-info{
+    font-size: 1.4em;
+    font-weight: bolder;
+}
+
+#result-container h3{
+    margin-top: 1em;
+    font-weight: bolder;
+    font-size: 1.4em;
+}
+
+#imc-table{
+    margin: 15px 15px;
+    font-size: 1em;
+}
+
+.table-header{
+    font-weight: bold;
+}
+
+.table-header,
+.table-data{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+
+.table-header h4,
+.table-data p{
+    flex: 1;
+}
+
+.table-header h4:nth-child(3),
+.table-data p:nth-child(3){
+    max-width: 80px;
+}
+
+#back-btn{
+    align-self:center;
+}
+
+.good{
+    color: #12db34 ;
+}
+
+.low{
+    color: #dbce12;
+}
+
+.medium{
+    color: #db6212;
+}
+
+.high{
+    color: #db1912 ;
+}
